@@ -3280,7 +3280,7 @@ namespace UnityEngine.InputSystem
         /// The current version of the input system package.
         /// </summary>
         /// <value>Current version of the input system.</value>
-        public static Version version => new Version(kAssemblyVersion);
+        public static System.Version version => new System.Version(kAssemblyVersion);
 
         /// <summary>
         /// Property for internal use that allows setting the player to run in the background.
